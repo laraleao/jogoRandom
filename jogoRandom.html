@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo Random</title>
+    <link rel="stylesheet" type="text/css" href="./jogoRandom.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap"
+    />
+    <img
+      src="randomImage.jpg"
+      alt="Imagem de dados coloridos espalhados de forma aleatória"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="jogo1">
+        <h1>Vamos Jogar?</h1>
+        <p>Digite um número de 0 a 9</p>
+
+        <input type="number" min="0" maxlength="9" id="numero-primeiro-jogo" />
+
+        <button id="Play" onclick="random()" type="submit">Tente</button>
+        <div id="resultados-1"></div>
+      </div>
+
+      <div class="box2" id="jogo2">
+        <h1>Vamos jogar de novo?</h1>
+        <p>Digite um número de 0 a 99</p>
+
+        <input type="number" min="0" max="99" id="numero-segundo-jogo" />
+
+        <button id="Play2" onclick="random2()" type="submit">
+          Tente de novo
+        </button>
+        <div id="resultados-2"></div>
+      </div>
+    </div>
+    <script src="./jogoRandom.js"></script>
+  </body>
+</html>
