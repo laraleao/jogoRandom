@@ -53,6 +53,8 @@ function random() {
 
       divResultados.appendChild(numeroResultado);
 
+      divResultados.style.color = "#003366";
+
       break;
       // pausa no contador para não crachar a função
     } else {
@@ -102,6 +104,8 @@ function random2() {
       // criação div para mostrar resultado de quantas vez foi executado
 
       divResultados.appendChild(numeroResultado);
+
+      divResultados.style.color = "#0033cc";
 
       break;
       // pausa no contador para não crachar a função
